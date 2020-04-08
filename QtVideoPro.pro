@@ -17,10 +17,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
-    appMainWin.cpp
+    AppMainWin.cpp
 
 HEADERS += \
-    appMainWin.hpp
+    LogMessage.hpp \
+    AppMainWin.hpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

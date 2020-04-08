@@ -1,0 +1,4 @@
+#ifndef LOGMESSAGE_HPP
+#define LOGMESSAGE_HPP
+
+#endif // LOGMESSAGE_HPP

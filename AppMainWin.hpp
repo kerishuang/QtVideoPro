@@ -3,12 +3,12 @@
 
 #include <QWidget>
 
-class appMainWin : public QWidget
+class AppMainWin : public QWidget
 {
     Q_OBJECT
 
 public:
-    appMainWin(QWidget *parent = nullptr);
-    ~appMainWin();
+    AppMainWin(QWidget *parent = nullptr);
+    ~AppMainWin();
 };
 #endif // APPMAINWIN_HPP
