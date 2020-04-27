@@ -10,5 +10,15 @@ class AppMainWin : public QWidget
 public:
     AppMainWin(QWidget *parent = nullptr);
     ~AppMainWin();
+    static AppMainWin* getAppMainWinInstance();
+
+
+private:
+    //静态成员变量，用以全局
+    static AppMainWin* AppMainWinInstance;
 };
+
+//添加全局变量
+AppMainWin* getAppInstance();
+
 #endif // APPMAINWIN_HPP
