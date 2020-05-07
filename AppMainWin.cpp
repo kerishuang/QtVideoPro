@@ -1,7 +1,9 @@
 #include "AppMainWin.hpp"
 #include <QDebug>
 
-AppMainWin* AppMainWinInstance = nullptr;
+
+
+AppMainWin* AppMainWin::AppMainWinInstance = nullptr;
 //全局变量函数，贯穿整个程序的类
 AppMainWin* getAppInstance()
 {
@@ -12,9 +14,10 @@ AppMainWin* getAppInstance()
 AppMainWin::AppMainWin(QWidget *parent)
     : QWidget(parent)
 {
+    qDebug()<<"==========start AppMainWin===============";
     AppMainWinInstance = this;
     setWindowTitle(tr("my video project"));
-    qDebug()<<"start AppMainWin";
+
 }
 
 AppMainWin::~AppMainWin()
@@ -27,4 +30,5 @@ AppMainWin *AppMainWin::getAppMainWinInstance()
 {
     return AppMainWinInstance;
 }
+
 

@@ -2,6 +2,7 @@
 #define APPMAINWIN_HPP
 
 #include <QWidget>
+#include <QSettings>
 
 class AppMainWin : public QWidget
 {
@@ -13,6 +14,7 @@ public:
     static AppMainWin* getAppMainWinInstance();
 
 
+
 private:
     //静态成员变量，用以全局
     static AppMainWin* AppMainWinInstance;
@@ -20,5 +22,4 @@ private:
 
 //添加全局变量
 AppMainWin* getAppInstance();
-
 #endif // APPMAINWIN_HPP
