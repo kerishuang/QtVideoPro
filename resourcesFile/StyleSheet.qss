@@ -1,0 +1,10 @@
+
+QPushButton#testBtn{
+    background-color:rgb(39,39,39);
+    color:white;
+}
+
+QPushButton#testBtn:hover{
+    background-color:rgb(39,39,39);
+    color:green;
+}

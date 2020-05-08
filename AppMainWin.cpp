@@ -1,4 +1,4 @@
-#include "AppMainWin.hpp"
+﻿#include "AppMainWin.hpp"
 #include <QDebug>
 
 
@@ -20,10 +20,18 @@ AppMainWin::AppMainWin(QWidget *parent)
     AppMainWinInstance = this;
     setWindowTitle(tr("my video project"));
 
+    //测试按钮
+    testBtn.setParent(this);
+    testBtn.setObjectName("testBtn");
+    testBtn.setText("testBtn");
+    testBtn.setFixedSize(50,20);
+    testBtn.move(100,100);
+
 }
 
 AppMainWin::~AppMainWin()
 {
+    qDebug()<<"-----------end AppMainWin---------------";
     //清理工作
     AppMainWinInstance = nullptr;
 }

@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QSettings>
+#include <QPushButton>
 
 class AppMainWin : public QWidget
 {
@@ -18,6 +19,9 @@ public:
 private:
     //静态成员变量，用以全局
     static AppMainWin* AppMainWinInstance;
+
+    //测试按钮
+    QPushButton testBtn;
 };
 
 //添加全局变量
