@@ -8,3 +8,13 @@ QPushButton#testBtn:hover{
     background-color:rgb(39,39,39);
     color:green;
 }
+
+QPushButton#openFileAndPlayBtn{
+    background-color:rgb(39,39,39);
+    color:white;
+}
+
+QPushButton#openFileAndPlayBtn:hover{
+    background-color:rgb(39,39,39);
+    color:green;
+}

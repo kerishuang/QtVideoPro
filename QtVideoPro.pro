@@ -29,7 +29,7 @@ SOURCES += \
 
 HEADERS += \
     LogMessage.hpp \
-    AppMainWin.hpp
+    AppMainWin.hpp \
 
 
 #国际化工作，每一个ts文件代表一种国际化语言，文件名可以随便取，不过规范是以某种语言的简写为末尾，作为文件名
